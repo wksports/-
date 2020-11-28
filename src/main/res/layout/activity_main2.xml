@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_back_register"
+            android:text="  注册"
+            android:textColor="#004480"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:src="@drawable/splash_logo" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_dl"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_user"
+        android:text="请输入账号"
+        android:textSize="23dp"
+        android:textColor="#2196F3"/>
+
+    <EditText
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" />
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_dl"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_password"
+        android:text="请输入密码"
+        android:textSize="23dp"
+        android:textColor="#2196F3"/>
+
+    <EditText
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:inputType="textPassword"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/layout_dl">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_password"
+            android:text="再次输入密码"
+            android:textColor="#2196F3"
+            android:textSize="23dp" />
+
+        <EditText
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:inputType="textPassword"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </LinearLayout>
+  <Button
+      android:id="@+id/button2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="50dp"
+      android:layout_marginRight="50dp"
+      android:text="注册"
+      android:background="@drawable/layout_dl"/>
+
+</LinearLayout>
